@@ -1,0 +1,20 @@
+{
+  "name": "webserver-node",
+  "version": "1.0.0",
+  "description": "Sitio web estático desarrollado en NodeJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DramaQueeen26/webserver-node.git"
+  },
+  "keywords": [],
+  "author": "Mariangel Yajure",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DramaQueeen26/webserver-node/issues"
+  },
+  "homepage": "https://github.com/DramaQueeen26/webserver-node#readme"
+}
