@@ -4,6 +4,10 @@ const express = require('express')
 const app = express()
 const port = process.env.PORT
 
+
+//Servir contenido estático a través de middleware
+app.use(express.static('public'))
+
 app.get('*', function (req, res) {
   res.sendFile(__dirname + '/public/index.html')
 })
